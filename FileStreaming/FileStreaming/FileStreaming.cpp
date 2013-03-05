@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-	string location = "D:\\FMI\\OOP\\FileStreaming\\test.txt";
+	string location = "test.txt";
 	ofstream out(location);
 
 	if (!out.is_open())
